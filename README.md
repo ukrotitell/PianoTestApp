@@ -5,7 +5,7 @@
 1) http://localhost:8080/create  (POST) создается новый пользователь и запоминается его id, создается каждый раз новый при вызове данного метода
 2) http://localhost:8080/users   (GET) посмотреть пользователя и в какой комнате находится
 3) http://localhost:8080/helper?roomId=2&entrance=true   (POST) вводится этот запрос и перенаправляется на URL check и подставляется id пользователя, итоговый интерфейс :
-http://localhost:8080/check?roomId=2&entrance=true&keyId=8 
+http://localhost:8080/check?roomId=2&entrance=true&keyId=8 (в консоли Postman есть)
 
 Проверка:
 1) http://localhost:8080/create - создается пользователь (POST)
