@@ -10,7 +10,7 @@ http://localhost:8080/check?roomId=2&entrance=true&keyId=8 (в консоли Po
 Проверка:
 1) http://localhost:8080/create - создается пользователь (POST)
 2) http://localhost:8080/users  - проверяем что пользователь (GET) с id=1 создан и у него нет комнаты (реализовал с помощью HashMap) ("1": null - результат)
-3) http://localhost:8080/helper?roomId=1&entrance=true  -  пользователь с id=1 в комнате 2  (POST),  ("1":1  -  результат)
+3) http://localhost:8080/helper?roomId=1&entrance=true  -  пользователь с id=1 в комнате 1  (POST),  ("1":1  -  результат)
 4) http://localhost:8080/users  - проверяем
 5) http://localhost:8080/helper?roomId=1&entrance=false  - пользователь с id=1 вышел из комнаты 1  (POST),  ("1":null  -  результат)
 6) http://localhost:8080/users  - проверяем и т.д.
